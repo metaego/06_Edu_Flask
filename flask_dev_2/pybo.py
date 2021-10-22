@@ -11,3 +11,4 @@ def hello_pybo():
     return 'Hello pybo!'
 # flak run 실행시 환경변수의 기본값이 설정되지 않았다면 오류발생
 # set FLASK_APP=pybo 로 환경변수 기본값 설정
+# set FLASK_ENV=development, 플라스크 서버를 개발 환경으로 실행
